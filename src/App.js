@@ -28,7 +28,7 @@ import React, { Component } from 'react'
 
 import { Navbar, NavbarBrand } from 'reactstrap';
 import './App.css';
-
+import Menu from './components/MenuComponents';
 export class App extends Component {
   render() {
     return (
@@ -38,6 +38,7 @@ export class App extends Component {
             <NavbarBrand href="/">Ristaurante Confusion</NavbarBrand>
           </div>
         </Navbar>
+        <Menu />
       
     </div>
     )

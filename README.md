@@ -13,3 +13,5 @@
       
     </div>
 ```
+6. go public folder crreate 'assets' folder
+7. inside assets directory create images folder
